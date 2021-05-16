@@ -52,7 +52,15 @@ public class RecursionTest{
     assertEquals("hel*lo",Recursion.pairStar("hello"));
   }
 
+  @Test
+  public void Test2_2(){
+    assertEquals("x*xy*y",Recursion.pairStar("xxyy"));
+  }
 
+  @Test
+  public void Test2_3(){
+    assertEquals("a*a*a*a",Recursion.pairStar("aaaa"));
+  }
 
 
 

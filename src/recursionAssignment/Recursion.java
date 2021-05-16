@@ -40,10 +40,25 @@ public class Recursion{
   */
 
   public static String pairStar(String str){
-    return "hel*lo";
     
+    // If the string equals to "" or has a length less than 1 it will just return
+    if (str.equals("") || str.length() == 1) {
+      return str; 
+    }
+    
+    // the first letter == to the 2nd letter in the string it puts a * inbetween
+    else if (str.charAt(0) == str.charAt(1)) {
+      return str.charAt(0) + "*" + pairStar(str.substring(1));
+    }
+
+    // The first letter + 1st letter in substring 
+    else {
+      return str.charAt(0) + pairStar(str.substring(1));
+    }    
+
   }
 
+  
 
 
 
