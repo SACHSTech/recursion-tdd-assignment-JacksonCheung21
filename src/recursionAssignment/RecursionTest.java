@@ -13,15 +13,17 @@ public class RecursionTest{
    * An initial test
   */
   
-  @Test
-  public void Test1(){
-    assertEquals(Recursion.count7(8),0);
-  }
-    
-  @After 
+
+   @After 
   public void afterTest(){
     // some steps to perform after tests are run
   }
+ 
+  @Test
+  public void Test1(){
+    assertEquals(Recursion.count7(717),2);
+  }
+  
  
     
     
