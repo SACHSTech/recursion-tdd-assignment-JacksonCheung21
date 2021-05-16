@@ -2,6 +2,15 @@ package recursionAssignment;
 
 public class Recursion{
 
+  /**
+  * Takes a number in and returns the amount of 7's in it
+  *
+  * @param int n The number that is checked
+  * @return the amount of 7's in the number
+  * @author: J.Cheung
+  *
+  */
+
   public static int count7(int n){
     
     // Base Case
