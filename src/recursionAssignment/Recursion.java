@@ -40,11 +40,7 @@ public class Recursion{
   */
 
   public static String pairStar(String str){
-
-
-
-
-
+    return "hel*lo";
     
   }
 
