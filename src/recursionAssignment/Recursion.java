@@ -30,5 +30,38 @@ public class Recursion{
 
   }
 
+  /**
+  * Takes pair letters and puts * between them
+  *
+  * @param String str the stirng being inputted
+  * @Return The string with * between pair
+  * @author: J.Cheung
+  *
+  */
+
+  public static String pairStar(String str){
+
+
+
+
+
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

@@ -31,18 +31,29 @@ public class RecursionTest{
   // Problem set 1 - count7
 
   @Test
-  public void Test1(){
+  public void Test1_1(){
     assertEquals(2,Recursion.count7(717));
   }
   
   @Test
-  public void Test2(){
+  public void Test1_2(){
     assertEquals(1,Recursion.count7(7));
   }
   
   @Test
-  public void Test3(){
+  public void Test1_3(){
     assertEquals(0,Recursion.count7(123));
   }
     
+  // Problem set 2 - pairStar
+
+  @Test
+  public void Test2_1(){
+    assertEquals("hel*lo",Recursion.pairStar("hello"));
+  }
+
+
+
+
+
 }
