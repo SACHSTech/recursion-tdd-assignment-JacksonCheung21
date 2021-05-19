@@ -58,7 +58,25 @@ public class Recursion{
 
   }
 
-  
+  /**
+  * Returns a clean string where there are no duplicates
+  *
+  * @param String str is the given string
+  * @return it will return the string with no duplicates
+  * @author J.Cheung
+  */
+
+  public static String stringClean(String str) {
+    
+    
+    return "hello";
+
+
+
+
+
+
+  }
 
 
 
