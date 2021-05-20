@@ -68,14 +68,22 @@ public class Recursion{
 
   public static String stringClean(String str) {
     
+    // if string length less than 2 return string
+    if (str.length() < 2) {
+      return str;
+    }
+
+    // else if first letter in string == to 2nd letter in the string then return
+    // substring the reamining letters after 1 
+    else if (str.charAt(0) == str.charAt(1)) {
+      return stringClean(str.substring(1));
+    }
+
+    // other wise it would return the first letter in stirng + the remainder 
+    else {
+      return str.charAt(0) + stringClean(str.substring(1));
+    }
     
-    return "yza";
-
-
-
-
-
-
   }
 
 
